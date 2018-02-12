@@ -1,18 +1,18 @@
 package com.src.polymorphism;
 
-class Program1A {
-	public void add() {
+class Program2A {
+	public static void add() {
 		System.out.println("Parent add");
 	}
 }
-class Program1B extends Program1A {
-	public void add() {
+class Program2B extends Program2A {
+	public static void add() {
 		System.out.println("Child add");
 	}
 }
-public class Program01 {
+public class Program02 {
 	public static void main(String[] args) {
-		Program1A a =new Program1B();
+		Program2B a =new Program2B();
 		a.add();
 	}
 }
