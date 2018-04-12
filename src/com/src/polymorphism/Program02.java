@@ -12,7 +12,7 @@ class Program2B extends Program2A {
 }
 public class Program02 {
 	public static void main(String[] args) {
-		Program2B a =new Program2B();
+		Program2A a =new Program2B();
 		a.add();
 	}
 }
